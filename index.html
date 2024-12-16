@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registro</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=sxCQs1shQxeAqQUsm8ZwNR6FlI3ZGgHqxjqffjeTvfU3pJJgrZr9FBvVWb-yymP8PZ0F21Hw5Nmq7_xUJQzgix9niaVE1Ej-ISpM1L-lMVs" charset="UTF-8"></script>
+<style>
+    @import url('https://lh4.googleusercontent.com/48P5npAgzHp5CyeqPff0E76H8NzvdVK2CGOE2N-fi6G3h950klLoHyEilp6moi67M8W2v1ojkkxFj8Z4FfJA2EMrCH6ftcGIbN0g4UAshT3lG8JXcpRAL1Bq71jD5N83Ug=w1280');
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        width: 100%;
+        height: 200px;
+        background-image: url('https://colegionazarethact.wordpress.com/wp-content/uploads/2024/12/barra2-1.png');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .header-content {
+        display: flex;
+        justify-content: flex-end; /* Alinea los elementos a la derecha */
+        align-items: flex-start;
+        padding: 0 20px;
+        height: 100%;
+    }
+
+    .logo {
+        height: 80px;
+        width: auto;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        color: #FF0004;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* Formulario de registro */
+    .register-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .register-box {
+        background-color: white;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 350px;
+        text-align: center;
+    }
+
+    .register-box input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    .register-box button {
+        width: 100%;
+        padding: 10px;
+        background-color: #FF0004; /* Rojo */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .register-box button:hover {
+        background-color: #cc0000; /* Rojo oscuro */
+    }
+
+    .login-link {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .login-link a {
+        font-weight: bold;
+        text-decoration: none;
+        color: #FF0004;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #dddddd;
+        color: white;
+        width: 100%; /* Para que ocupe todo el ancho */
+        padding: 30px 20px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .footer .social-icons {
+        display: flex;
+        justify-content: space-around; /* Distribuye los elementos con espacio igual */
+        gap: 20px;
+    }
+
+    .footer .social-icons a {
+        cursor: pointer;
+    }
+
+    .footer .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+    </div>
+</header>
+
+<!-- Formulario de registro -->
+<div class="register-container">
+    <div class="register-box">
+        <h2>Registro</h2>
+        <form action="https://www.ejemplo.com/registro" method="POST" target="_blank">
+            <input type="text" name="fullname" placeholder="Nombre completo" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <input type="text" name="matricula" placeholder="Matrícula" required> <!-- Cambié el tipo a text -->
+            <input type="text" name="semester" placeholder="Semestre" required>
+            <input type="text" name="career" placeholder="Carrera" required>
+            <input type="text" name="campus" placeholder="Campus" required>
+            <input type="password" name="password" placeholder="Contraseña" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <!-- Enlace para ir al login -->
+        <div class="login-link">
+            <p>¿Ya tienes una cuenta?</p>
+            <a href="https://www.ejemplo.com/iniciar-sesion" target="_blank">Inicia sesión aquí</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer">
+        <div class="text">
+        </div>
+        <div class="social-icons">
+            <a href="https://uvm.mx/whatsapp">
+                <img src="https://colegionazarethact.wordpress.com/wp-content/uploads/2024/12/iconos_mesa-de-trabajo-1-copia-13.png" alt="Whatsapp">
+                <br>
+                <span>+52 444 143 45</span>
+            </a>
+            <a href="https://www.instagram.com/uvm.sanluispotosi/">
+                <img src="https://colegionazarethact.wordpress.com/wp-content/uploads/2024/12/iconos_mesa-de-trabajo-1-copia-12.png" alt="Instagram">
+                <br>
+                <span>Instagram</span>
+            </a>
+            <a href="https://uvm.mx/contactanos">
+                <img src="https://colegionazarethact.wordpress.com/wp-content/uploads/2024/12/iconos_mesa-de-trabajo-1-copia-11.png" alt="Correo">
+                <br>
+                <span>Contáctanos</span>
+            </a>
+            <a href="https://uvm.mx/la-uvm/campus/san-luis-potosi">
+                <img src="https://colegionazarethact.wordpress.com/wp-content/uploads/2024/12/iconos_mesa-de-trabajo-1-copia-14.png" alt="Pagina Web">
+                <br>
+                <span>UVM Sitio Oficial</span>
+            </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
